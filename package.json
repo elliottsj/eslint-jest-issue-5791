@@ -1,0 +1,31 @@
+{
+  "name": "eslint-jest-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elliottsj/eslint-jest-issue.git"
+  },
+  "author": "Spencer Elliott <me@elliottsj.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elliottsj/eslint-jest-issue/issues"
+  },
+  "homepage": "https://github.com/elliottsj/eslint-jest-issue#readme",
+  "dependencies": {
+    "eslint": "2.7.0",
+    "jest-cli": "0.10.0"
+  },
+  "jest": {
+    "testPathDirs": [
+      "<rootDir>/src"
+    ],
+    "unmockedModulePathPatterns": [
+      "<rootDir>/node_modules"
+    ]
+  }
+}
