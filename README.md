@@ -1,5 +1,7 @@
 # eslint-jest-issue
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/elliottsj/eslint-jest-issue-5791.svg)](https://greenkeeper.io/)
+
 Demonstration of https://github.com/eslint/eslint/issues/5791.
 
 Run `npm test`, and you should see output similar to this:
